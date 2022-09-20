@@ -1,0 +1,44 @@
+.login-button {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin: 20px 20px 0 0;
+    cursor: pointer;
+}
+.nav-section {
+    display: flex;
+    justify-content: center;
+}
+.nav-section img {
+    width: 140px;
+    cursor: pointer;
+}
+.menu-list {
+    display: flex;
+    list-style: none;
+}
+.menu-list li {
+    padding: 12px;
+}
+.menu-area {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.search-area {
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.search-area input {
+    border: none;
+    margin-left: 5px;
+}
+.search-area input:focus {
+    outline: none;
+}
+.product-img {
+    display: flex;
+    justify-content: flex-end;
+}
